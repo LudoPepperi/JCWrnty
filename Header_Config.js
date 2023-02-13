@@ -25,6 +25,13 @@ const RightMenu = [
     action:"createNewTransaction",
     deepLink: '/Transactions/scope_items/{{UUID}}'
   },
+	{
+		catalog: "FASHION",
+        transaction: "FASHION",
+    title: "Précommande",
+    action:"createNewTransaction",
+    deepLink: '/Transactions/scope_items/{{UUID}}'
+  },
   {
     title: "Historique",
     action:"navigation",
