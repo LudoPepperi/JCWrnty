@@ -23,7 +23,7 @@ const RightMenu = [
         transaction: "FASHION",
     title: "Commande",
     action:"createNewTransaction",
-    deepLink: '/transactions/scope_items/{{UUID}}'
+    deepLink: 'transactions/scope_items/7e3ade2e-fc26-47ab-9a59-7129b0ff6044?CurrentTab="%7B%5C"JsonFilter%5C":%5C"d4a94952-a86b-49a0-9993-81580a38c1e1%5C"%7D"&StartIndex=0'
   },
 	{
 		catalog: "FASHION",
