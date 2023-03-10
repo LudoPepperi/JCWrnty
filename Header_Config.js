@@ -1,9 +1,9 @@
 var Transaction = 'FASHION';
 var Catalog = 'FASHION';
-const LeftMenu = [
+const LeftMenu = [{
 	
  
-];
+}];
 const RightMenu = [
 	
   {
