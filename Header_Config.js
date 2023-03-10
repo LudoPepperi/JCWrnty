@@ -1,5 +1,5 @@
 var Transaction = 'FASHION';
-var Catalog = 'FASHION'
+var Catalog = 'FASHION';
 const LeftMenu = [
 	
  
@@ -16,21 +16,21 @@ const RightMenu = [
 	</svg> 
     `,
     action:"setUUIDandNav",
-    deepLink: '/Transactions/scope_items/{{UUID}}?CurrentTab=%22%7B%5C%22JsonFilter%5C%22:%5C%227142a6f9-af48-4dba-a30d-85d89b2ed083%5C%22%7D%22'
+    deepLink: '/transactions/scope_items/{{UUID}}?CurrentTab="%7B%5C"JsonFilter%5C":%5C"a478f4fd-9c60-4b97-8ecc-759972116254%5C"%7D"&StartIndex=0&SearchString=&SearchAll=false'
   },
 	{
 		catalog: "FASHION",
         transaction: "FASHION",
     title: "Commande",
     action:"createNewTransaction",
-    deepLink: '/Transactions/scope_items/{{UUID}}'
+    deepLink: '/transactions/scope_items/{{UUID}}'
   },
 	{
 		catalog: "FASHION",
         transaction: "FASHION",
     title: "Précommande",
     action:"createNewTransaction",
-    deepLink: '/Transactions/scope_items/{{UUID}}'
+    deepLink: '/transactions/scope_items/{{UUID}}'
   },
   {
     title: "Historique",
